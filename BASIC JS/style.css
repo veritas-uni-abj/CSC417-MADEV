@@ -1,0 +1,220 @@
+body {
+    font-family: poppins, sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  nav li {
+    display:inline-block;
+    margin-right: 20px;
+   
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: end;
+  }
+
+  /* RIGHT TOP NAV BAR
+
+  nav {
+  background-color: black;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+nav ul li {
+  float: right;
+}
+
+nav ul li a {
+  display: block;
+  padding: 1em;
+  color: #333;
+  text-decoration: none;
+}
+*/
+
+  /* FLEX BOX ATTRIBUTES */
+  .hero {
+    background-image: url('webdev.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #2196F3;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .btn-secondary {
+    background-color: #2196F3;
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  #about {
+    background-color: whitesmoke;
+    padding: 50px;
+    text-align: center;
+
+  }
+  
+
+  
+  #about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 15px;
+  }
+  #desc{
+  text-align: center;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background-color: #70178b;
+  }
+  
+  /*  FLEX BOX ATTRIBUTES */
+  .item {
+    background-color: whitesmoke;
+    color: black;
+    font-size: 24px;
+    padding: 20px;
+    margin: 10px;
+  }
+  .item > p{
+    font-size: 15px;
+  }
+  #contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 80vh;
+    color: white;
+    background-color: rgb(0, 0, 0);
+
+  }
+
+  .item1{
+    background-image: url('gitcontact.svg');
+    background-size:contain;
+    background-position: center;
+    width: 200px;
+    margin: 30px;
+    background-repeat: no-repeat;
+ 
+  }
+
+  .item2{
+    
+    margin: 30px;
+ 
+  }
+
+
+
+
+  	/* FORM CSS styles  */
+		form {
+			width: 570px;
+			margin: auto;
+			background-color: #f2f2f2;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px #ccc;
+			font-family: Arial, sans-serif;
+      padding: 10%;
+		}
+		
+		label {
+			display: block;
+			margin-bottom: 10px;
+			font-weight: bold;
+      color: black;
+		}
+		
+		input[type="text"], textarea {
+			width: 100%;
+			padding: 8px;
+			border: none;
+			border-radius: 5px;
+			margin-bottom: 20px;
+			box-shadow: 0 0 5px #ccc;
+			resize: none;
+			font-size: 16px;
+		}
+		
+		input[type="submit"] {
+			background-color: #007bff;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			font-size: 16px;
+		}
+		
+		input[type="submit"]:hover {
+			background-color: #0066cc;
+		}
+    .footer{
+      text-align: center;
+    }
